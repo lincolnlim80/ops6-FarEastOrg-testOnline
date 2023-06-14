@@ -1,0 +1,20 @@
+@media only screen and (max-width: 1024px) and (orientation:landscape) {
+    .videoCloseButtonMobile {
+        top:0
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .usp_margin_30 {
+        margin-left:30px;
+        margin-right: 30px
+    }
+
+    .cta_writeup_margin_bottom_5px {
+        margin-bottom: 5px
+    }
+
+    .cta_writeup_width_100 {
+        width: 100%
+    }
+}
