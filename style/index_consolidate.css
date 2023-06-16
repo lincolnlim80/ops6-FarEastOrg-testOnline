@@ -2629,8 +2629,7 @@ body{
 	margin:0;
 	z-index:5;
 	padding:.8125rem 0;
-	height:76px;
-	height:4.75rem
+	height:6rem
 	}
 .fixed-header .site-header .container{
 	max-width:1620px;
@@ -2666,8 +2665,7 @@ body{
 	z-index:6;
 	text-align:left;
 	background-color:rgba(118,12,12,.934);
-	height:68px;
-	height:4.2rem
+	height:6rem
 	}
 .fixed-nav .site-main-nav .main-nav-item{
 	padding:0 .9375rem
