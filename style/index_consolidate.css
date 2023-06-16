@@ -2244,114 +2244,7 @@ button.close{
 	}
 
 	@charset "UTF-8";
-@font-face{
-	font-family:SF-Pro-Text;
-	src:url(https://lincolnlim80.github.io/Contents/assets/fonts/SF-Pro-Text-Ultralight.woff) format('opentype');
-	font-weight:100;
-	font-style:normal
-	}
-@font-face{
-	font-family:SF-Pro-Text;
-	src:url(https://lincolnlim80.github.io/Contents/assets/fonts/SF-Pro-Text-Thin.woff) format('opentype');
-	font-weight:200;
-	font-style:normal
-	}
-@font-face{
-	font-family:SF-Pro-Text;
-	src:url(https://lincolnlim80.github.io/Contents/assets/fonts/SF-Pro-Text-Light.woff) format('opentype');
-	font-weight:300;
-	font-style:normal
-	}
-@font-face{
-	font-family:SF-Pro-Text;
-	src:url(https://lincolnlim80.github.io/Contents/assets/fonts/SF-Pro-Text-Regular.woff) format('opentype');
-	font-weight:400;
-	font-style:normal
-	}
-@font-face{
-	font-family:SF-Pro-Text;
-	src:url(https://lincolnlim80.github.io/Contents/assets/fonts/SF-Pro-Text-Medium.woff) format('opentype');
-	font-weight:500;
-	font-style:normal
-	}
-@font-face{
-	font-family:SF-Pro-Text;
-	src:url(https://lincolnlim80.github.io/Contents/assets/fonts/SF-Pro-Text-Semibold.woff) format('opentype');
-	font-weight:600;
-	font-style:normal
-	}
-@font-face{
-	font-family:SF-Pro-Text;
-	src:url(https://lincolnlim80.github.io/Contents/assets/fonts/SF-Pro-Text-Bold.woff) format('opentype');
-	font-weight:700;
-	font-style:normal
-	}
-@font-face{
-	font-family:SF-Pro-Text;
-	src:url(https://lincolnlim80.github.io/Contents/assets/fonts/SF-Pro-Text-Heavy.woff) format('opentype');
-	font-weight:800;
-	font-style:normal
-	}
-@font-face{
-	font-family:SF-Pro-Text;
-	src:url(https://lincolnlim80.github.io/Contents/assets/fonts/SF-Pro-Text-Black.woff) format('opentype');
-	font-weight:900;
-	font-style:normal
-	}
-@font-face{
-	font-family:SF-Pro-Text;
-	src:url(https://lincolnlim80.github.io/Contents/assets/fonts/SF-Pro-Text-UltralightItalic.woff) format('opentype');
-	font-weight:100;
-	font-style:italic
-	}
-@font-face{
-	font-family:SF-Pro-Text;
-	src:url(https://lincolnlim80.github.io/Contents/assets/fonts/SF-Pro-Text-ThinItalic.woff) format('opentype');
-	font-weight:200;
-	font-style:italic
-	}
-@font-face{
-	font-family:SF-Pro-Text;
-	src:url(https://lincolnlim80.github.io/Contents/assets/fonts/SF-Pro-Text-LightItalic.woff) format('opentype');
-	font-weight:300;
-	font-style:italic
-	}
-@font-face{
-	font-family:SF-Pro-Text;
-	src:url(https://lincolnlim80.github.io/Contents/assets/fonts/SF-Pro-Text-RegularItalic.woff) format('opentype');
-	font-weight:400;
-	font-style:italic
-	}
-@font-face{
-	font-family:SF-Pro-Text;
-	src:url(https://lincolnlim80.github.io/Contents/assets/fonts/SF-Pro-Text-MediumItalic.woff) format('opentype');
-	font-weight:500;
-	font-style:italic
-	}
-@font-face{
-	font-family:SF-Pro-Text;
-	src:url(https://lincolnlim80.github.io/Contents/assets/fonts/SF-Pro-Text-SemiboldItalic.woff) format('opentype');
-	font-weight:600;
-	font-style:italic
-	}
-@font-face{
-	font-family:SF-Pro-Text;
-	src:url(https://lincolnlim80.github.io/Contents/assets/fonts/SF-Pro-Text-BoldItalic.woff) format('opentype');
-	font-weight:700;
-	font-style:italic
-	}
-@font-face{
-	font-family:SF-Pro-Text;
-	src:url(https://lincolnlim80.github.io/Contents/assets/fonts/SF-Pro-Text-HeavyItalic.woff) format('opentype');
-	font-weight:800;
-	font-style:italic
-	}
-@font-face{
-	font-family:SF-Pro-Text;
-	src:url(https://lincolnlim80.github.io/Contents/assets/fonts/SF-Pro-Text-BlackItalic.woff) format('opentype');
-	font-weight:900;
-	font-style:italic
-	}
+
 .btn,a,button{
 	font-family:SF-Pro-Text,"Merriweather Sans",Arial,"Microsoft Yahei",微软雅黑,STXihei,华文细黑,sans-serif
 	}
@@ -4268,7 +4161,6 @@ main.container{
 	left:auto;
 	bottom:auto;
 	margin-top:.3rem;
-	background:url(https://lincolnlim80.github.io/assets/images/footer-arrow.png) no-repeat;
 	width:2rem;
 	height:1.375rem;
 	-ms-transform:rotate(90deg) scale(.75);
