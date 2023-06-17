@@ -35,7 +35,7 @@
 <div class="site-header-wraper">
     <header class="site-header">
         <div class="container">
-                <a id="brand" class="brand-link" href="/">
+                <a id="brand" class="brand-link" href="index.html">
                     <div class="brand-logo">
                         <img src="./img/Far-East-Organization-Logo-SVG-EN.svg" alt="Far East Logo" class="img-fluid">
                     </div>
@@ -48,26 +48,30 @@
     <div class="hidden-sm-down" id="checkDeviceElement">
 
         <div class="header-scroller">
-            <div id="popupFormSales" class="popup">
+            <div id="popupFormSales" class="popup" style="display: none;border-width: 5px;padding-top: 5px;padding-left: 5px;padding-bottom: 5px;padding-right: 5px;">
                 <!-- this formspree works -->
-                <form onsubmit="submitForm(event)" action="https://formspree.io/f/mzbqlqap" method="POST">
-                  <label id="formname" style="font-size: 20px; margin-bottom: 30px">Already have something in mind or having some doubts about a specific project? Our Sales Team are here to help.</label>
+                <form onsubmit="submitForm(event)" action="https://formspree.io/f/mzbqlqap" method="POST" style="margin: auto; width: 100%;">
+                  <label id="formname" style="font-size: 20px; margin-bottom: 30px">Already have something in mind or having some doubts about a specific project? 
+                    <br>
+                    Our Sales Team are here to help.</label>
                   <label id="name">Your Name:</label>
-                  <input type="text" name="name" required autocomplete="name">
+                  <input type="text" name="name" required="" autocomplete="name">
                   <label id="mobile">Your Mobile Number:</label>
-                  <input type="tel" name="mobile" required autocomplete="tel">
+                  <input type="tel" name="mobile" required="" autocomplete="tel">
                   <label id="email">Your Email:</label>
                   <input type="email" name="email" autocomplete="email">
                   <label id="enquiry">Enquiry:</label>
                   <textarea name="enquiry"></textarea>
-                  <button type="submit" class="send">Send</button>
+                  <button type="submit" class="send" style="font-size: 2rem;font-weight: 600">Send</button>
                   <a class="close" onclick="closeFormSales()">Close</a>
                 </form>
             </div>
-            <div id="popupFormGeneral" class="popup">
+            <div id="popupFormGeneral" class="popup" style="display: none;border-width: 5px;padding-top: 5px;padding-left: 5px;padding-bottom: 5px;padding-right: 5px;">
                 <!-- this formspree works -->
-                <form onsubmit="submitForm(event)" action="https://formspree.io/f/mzbqlqap" method="POST">
-                  <label id="formname" style="font-size: 20px; margin-bottom: 30px">Looking for some advice? Our Enquiry line is open.</label>
+                <form onsubmit="submitForm(event)" action="https://formspree.io/f/mzbqlqap" method="POST" style="margin: auto; width: 100%;">
+                  <label id="formname" style="font-size: 20px; margin-bottom: 30px">Looking for some advice? 
+                    <br>
+                    Our Enquiry line is open.</label>
                   <label id="name">Your Name:</label>
                   <input type="text" name="name" required autocomplete="name">
                   <label id="mobile">Your Mobile Number:</label>
@@ -76,7 +80,7 @@
                   <input type="email" name="email" autocomplete="email">
                   <label id="enquiry">Enquiry:</label>
                   <textarea name="enquiry"></textarea>
-                  <button type="submit" class="send">Send</button>
+                  <button type="submit" class="send" style="font-size: 2rem;font-weight: 600">Send</button>
                   <a class="close" onclick="closeFormGeneral()">Close</a>
                 </form>
             </div>
